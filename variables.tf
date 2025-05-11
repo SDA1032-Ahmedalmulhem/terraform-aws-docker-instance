@@ -5,6 +5,7 @@ variable "instance_type" {
 
 variable "key_name" {
   type = string
+  description = "write your pem key without .pam"
 }
 
 variable "num_of_instance" {
